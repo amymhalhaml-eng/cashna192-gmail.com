@@ -1,0 +1,15 @@
+usd-platform/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env.example
+│  ├─ prisma/
+│  │  └─ schema.prisma
+│  └─ src/
+│     ├─ server.js
+│     ├─ prisma.js
+│     ├─ routes/
+│     │  ├─ auth.js
+│     │  ├─ transactions.js
+│     │  ├─ payments.js
+│     └─ middlewares/
+│        └─ auth.js
